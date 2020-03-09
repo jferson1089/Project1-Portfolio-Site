@@ -97,9 +97,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Form | High | 5|  |  |
 |Coloring| Low | 1 | 	|	|
 |Carousel | Low | 4 	|	|
-
 |Additional Styling| Low| 2|	|	|
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 17hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
