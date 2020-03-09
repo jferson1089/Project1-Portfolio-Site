@@ -59,17 +59,17 @@ From the Time priority Matrix I have reached a total of 24 Hours rounding up a b
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-MVP: A working contact form!
-MVP: Working Display of Projects
-MVP: Any javascript or jQuery functions work from mobile to tablet to desktop.
-MVP: Any images loading properly and styles
-MVP: Using the Nav bar to Scroll down the page, needs to work or it is pointless to be there.
+-MVP: A working contact form!
+-MVP: Working Display of Projects
+-MVP: Any javascript or jQuery functions work from mobile to tablet to desktop.
+-MVP: Any images loading properly and styles
+-MVP: Using the Nav bar to Scroll down the page, needs to work or it is pointless to be there.
 
-PostMVP : Hamburger Menu for Mobile (Even though it is needed for project, if the Nav bar works hamburger menu might not be top priority)
-PostMVP : An on hover description box for the projects
-PostMVP: Any type of Desktop only features such as cursor and on hover functions
-PostMVP : Advanced Coloring or Advanced CSS styling
-
+-PostMVP : Hamburger Menu for Mobile (Even though it is needed for project, if the Nav bar works hamburger menu might not be top priority)
+-PostMVP : An on hover description box for the projects
+-PostMVP: Any type of Desktop only features such as cursor and on hover functions
+-PostMVP : Advanced Coloring or Advanced CSS styling
+-PostMVP : Fixed Nav bar
 
 
 #### MVP (examples)
@@ -93,12 +93,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Html and Css layout : Grid | High | 2.5 |	|	|
 | Hamburger Menu | High| 3 | 	|	|
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Adding Form | High | 5|  |  |
 |Coloring| Low | 1 | 	|	|
 |Carousel | Low | 4 	|	|
-|Fixed Nav Bar| Low|	5|	|	|
+
 |Additional Styling| Low| 2|	|	|
-| Adding Form | High | 5|  |  |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
