@@ -104,6 +104,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
  Use this section to list all supporting libraries and thier role in the project. 
  
  -Currently Going to Attempt to Build Everything on my Own. Will place documentation for any type of code I look at in this section.
+ 
+ #### https://www.youtube.com/watch?v=eVvhNAnOf1A
+ -Used this video to show me how to link a google form to collect data from my contact form and add it into a google sheet (Would like to improve this, but for time sake will most likely leave as is.)
 
 ## Code Snippet
 
