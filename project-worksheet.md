@@ -91,11 +91,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Html and Css layout : Grid | High | 2.5 |	|	|
+| Html and Css layout : Grid | High | 2.5 |	2|	|
 | Hamburger Menu | High| 3 | 	|	|
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Adding Form | High | 5|  |  |
-|Coloring| Low | 1 | 	|	|
+| Working with API | H | 3hrs| 1 | |
+| Adding Form | High | 5| 1 |  |
+|Coloring| Low | 1 | 1	|	|
 |Carousel | Low | 4 	|	|
 |Additional Styling| Low| 2|	|	|
 | Total | H | 17hrs|  |  |
