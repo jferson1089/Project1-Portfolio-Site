@@ -113,10 +113,17 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+<article> 
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScPZ0irlg-ezzRgiHTRqyeMXhGkhjv-4GkzJoPEGiawTiRC0A/formResponse" target="_self" method="POST">
+        <input type="text" placeholder=" Name.." name="entry.1257656603">
+        <input type="text" placeholder=" Email.." name="entry.1175475185">
+        <input type="text" class="textbox" placeholder="Type Here.." name="entry.1376384118">
+        <button>Contact Me</button>
+        </form></article>
 ```
+Above is my form box with linking into the google forms and google spreadsheet to record responses. I used this method for time saving, currently it still brings up a google "submitted" box which I would like to remove if I have time to look into it. So using youtube video linked above, after creating the form you can inspect the elements of each particular box and set them appropriately. Then you make your form action the url of the google form and it links it up. The Form, inputs, and button where created and styled by me.
+
+
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
