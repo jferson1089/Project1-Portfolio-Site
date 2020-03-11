@@ -10,7 +10,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -107,6 +107,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
  
  #### https://www.youtube.com/watch?v=eVvhNAnOf1A
  -Used this video to show me how to link a google form to collect data from my contact form and add it into a google sheet (Would like to improve this, but for time sake will most likely leave as is.)
+ 
+ 
+ #### Hamburger Menu
+-https://codepen.io/fgregorydfw/pen/XBKVwg
+-I would like to implement a similiar design for my hamburger menu. This one is responsive to screen size
 
 ## Code Snippet
 
