@@ -1,11 +1,173 @@
-*{
+/* *{
     border: 1px solid black;
+    font-family: 'Abel', 'sans-serif';
+  }
+   */
+
+/*-
+https://codepen.io/fgregorydfw/pen/XBKVwg
+Got toggle functions and jquery code from this code pen to add hamburger menu into my site
+-I would like to implement a similiar design for my hamburger menu. This one is responsive to screen size
+*/
+
+
+
+  h1{
+    width:50%;
+    text-align:center;
+    letter-spacing: 4px;
+   
+  }
+  
+  .container {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  header::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+  
+  .logo {
+    float: left;
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .logo span {
+    font-weight: 400;
+  }
+  
+  .site-nav {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background: #8B1D06;
+    clip-path: circle(0px at top right);
+    transition: clip-path ease-in-out 700ms;
+  /*   display: none; */
+  }
+  
+  .site-nav--open {
+    clip-path: circle(250% at top right);
+  /*   display: block; */
+  }
+  
+  .site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:white;
+  }
+  
+  .site-nav li {
+    border-bottom: 1px solid white;
+    colr:black;
+  }
+  
+  .site-nav li:last-child {
+    border-bottom: none;
+  }
+  
+  .site-nav a {
+    color: black;
+    display: block;
+    padding: 2em 4em 2em 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .site-nav a:hover,
+  .site-nav a:focus {
+    background: #F59817;
+    color: #dddddd;
+  }
+  
+  .site-nav--icon {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 1em;
+    width: 1.1em;
+    text-align: right;
     
   }
   
-  body {
+  .menu-toggle {
+    padding: 1em;
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    cursor: pointer;
+  }
+  /*Deals with hamburger transition points when expanding */
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    display: block;
+    background: black;
+    height: 3px;
+    width: 1.75em;
+    border-radius: 3px;
+    transition: all ease-in-out 500ms;
+  }
+  
+  .hamburger::before {
+    transform: translateY(-6px);
+  }
+  
+  .hamburger::after {
+    transform: translateY(3px);
+  }
+  
+  .open .hamburger {
+    transform: rotate(45deg);
+  }
+  
+  .open .hamburger::before {
+    opacity: 0;
+  }
+  
+  .open .hamburger::after {
+    transform: translateY(-3px) rotate(-90deg);
+  }
+  
+  
+  
+  /*Grid Layout*/
+  header {
+    grid-area:header;
+    background: white;
+    border-top: 2px solid #F59817;
+    border-bottom: 2px solid #8B1D06;
+    padding: 1em 0;
+    position: relative;
     font-family: 'Abel', sans-serif;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body {
     
+    font-family: 'Abel', sans-serif;
     height:1000px;
   /*   border: 1px solid; */
     display:grid;
@@ -23,7 +185,7 @@
     
   }
   
-  ul{
+  /* ul{
    display: flex;
     width: 100%;
     letter-spacing:3px;
@@ -55,7 +217,7 @@
     width:100%;
     text-align:center;
    
-  }
+  } */
 
   form {
     display:flex;
@@ -99,10 +261,10 @@
 
 
   /*Grid Layout*/
-  header {
+  /* header {
     grid-area:header;
    
-  }
+  } */
   
   aside{
     background-color:rgba(255,255,255, 0.8);
@@ -140,7 +302,7 @@ footer{
   
   
   
-  @media (min-width: 900px){
+  @media (min-width: 700px){
   body {
     height:1000px;
   /*   border: 1px solid; */
@@ -191,5 +353,40 @@ footer{
       width:400px;
     }
     
+    /*Hamburger Styling */
+    .menu-toggle {
+        display: none;
+      }
+      
+      .site-nav {
+        height: auto;
+        position: relative;
+        background: transparent;
+        float: right;
+        clip-path: initial;
+      }
+      
+      .site-nav li {
+        display: inline-block;
+        border: none;
+      }
+      
+      .site-nav a {
+        padding: 0;
+        margin-left: 3em;
+      }
+      
+      .site-nav a:hover,
+      .site-nav a:focus {
+        background: transparent;
+      }
+      
+      .site-nav--icon {
+        display: none;
+      }
+
+
+
+
   
   }
