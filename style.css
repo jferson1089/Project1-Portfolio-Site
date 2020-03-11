@@ -296,6 +296,8 @@ article{
   }
 footer{
     grid-area:footer;
+    border-top: 2px solid #8B1D06;
+    border-bottom: 2px solid #F59817;
   }
   
   

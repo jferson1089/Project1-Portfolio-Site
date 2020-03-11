@@ -25,14 +25,23 @@ fetch(source)
 
 function app (projects){
     console.log('app-projects', projects)
+
+    let $div =$('div')
+    let $ul =$('ul')
+
+    projects.forEach( container => {
+        let $li = $(`<h2 class='title'>${container.title}</h2><a href='${container.url}'><img src='${container.image}' style="width:300px;height:200px;"></img></a><p>${container.description}</p>`)
+        $('section').append($li);
+      })
+      
+
+
+
 }
 
-let addProject = ( ) => {
-    image = projects.image
-    let $img = $('<img>')
-    let $div = $('<div>').setClass()
+
     
-}
+
 
 //This section is for the click function on hamburger icon
 $('.menu-toggle').click(function() {
