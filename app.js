@@ -29,7 +29,7 @@ function app (projects){
     
 
     projects.forEach( container => {
-        let $li = $(`<h2 class='title'>${container.title}</h2><a href='${container.url}'><img src='${container.image}' style="width:300px;height:200px;"></img></a><p>${container.description}</p>`)
+        let $li = $(`<div class="imageContainer"><h2 class='title'>${container.title}</h2><a href='${container.url}'><img src='${container.image}' class='containerImage' style="width:150px;height:100px;"></img></a><p>${container.description}</p></div>`)
       
         $('section').append($li);
       })

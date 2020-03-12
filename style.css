@@ -141,6 +141,20 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
   /*End of hamburger menu styling */
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /*Grid Layout*/
   header {
     grid-area:header;
@@ -173,13 +187,14 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
     display:grid;
     grid-gap: 10px;
     grid-template-columns: repeat( 1fr)auto;
-    grid-template-rows: repeat(6fr)  ;
+    grid-template-rows:auto repeat(7, 1fr)  auto ;
   grid-template-areas:
     "header"
     "main"
     "section1"
     'section1'
-    "section2"
+    "section1"
+    "section1"
     "article"
     "footer";
     
@@ -218,6 +233,11 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
     text-align:center;
    
   } */
+
+  h2:last-of-type{
+      display:none;
+  }
+
 
   form {
     display:flex;
@@ -286,9 +306,7 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
     background-repeat:no-repeat;
   }
 .section1{
-    grid-area:section1;  
-    box-shadow: 1px 1px 1px 1px #cccccc;
-   
+    grid-area:section1; 
     align-items:center;
   }
 .section2{
@@ -320,7 +338,7 @@ footer{
     "header header"
     "main main"
     "article section1"
-    "article section2"
+    "section2 section2"
     "footer footer";
   }
   
@@ -342,6 +360,11 @@ footer{
     
       
     }
+
+    article{
+        height: 35%;
+        
+    }
     ul{
       display:flex;
       width:100%;
@@ -359,6 +382,82 @@ footer{
       width:400px;
     }
     
+    /*Grid Layout for projects */
+  h2{
+    letter-spacing:3px;
+    text-align:center;
+  }
+  
+  section{
+   
+  display:grid;
+    grid-gap: 5px;
+    grid-template-columns:auto repeat(3, 1fr) auto;
+    grid-template-rows:auto repeat(3, 1fr) auto;
+  grid-template-areas:
+    "top  top2  top3 "
+    "middle middle2 ."
+    'bottom bottom2 bottom3'
+    ;
+    
+    
+  
+  }
+  p{
+    font-size:16px;
+  }
+  
+  
+  .imageContainer{
+   background-color:#eeeeee;
+    width:150px;
+    height:175px;
+    padding-bottom:70px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:5px;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+
+    
+  
+  }
+  
+  .imageContainer:hover {
+    -ms-transform: scale(1.75); /* IE 9 */
+    -webkit-transform: scale(1.75); /* Safari 3-8 */
+    transform: scale(1.75); 
+    
+  }
+  
+  .imageContainer:nth-child(1){
+    grid-area:bottom2;
+  }
+  .imageContainer:nth-child(2){
+    grid-area:middle2;
+  }
+  .imageContainer:nth-child(3){
+    grid-area:top;
+  }
+  .imageContainer:nth-child(4){
+    grid-area:top2;
+  }
+  .imageContainer:nth-child(5){
+    grid-area:middle;
+  }
+  .imageContainer:nth-child(6){
+    grid-area:bottom;
+  }
+  .imageContainer:nth-child(7){
+    grid-area:top3;
+  }
+
+
+
+
+
+
+
     /*Hamburger Styling */
     .menu-toggle {
         display: none;
@@ -391,7 +490,10 @@ footer{
         display: none;
       }
 
-
+      h2:last-of-type{
+       display:grid;
+       margin: -5px;
+    }
 
 
   
