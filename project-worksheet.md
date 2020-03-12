@@ -59,15 +59,20 @@ From the Time priority Matrix I have reached a total of 24 Hours rounding up a b
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
--MVP: A working contact form!
--MVP: Working Display of Projects
+****MVP: A working contact form!
+
+****MVP: Working Display of Projects
+
 -MVP: Any javascript or jQuery functions work from mobile to tablet to desktop.
+
 -MVP: Any images loading properly and styles
 -MVP: Using the Nav bar to Scroll down the page, needs to work or it is pointless to be there.
 
--PostMVP : Hamburger Menu for Mobile (Even though it is needed for project, if the Nav bar works hamburger menu might not be top priority)
+****PostMVP : Hamburger Menu for Mobile (Even though it is needed for project, if the Nav bar works hamburger menu might not be top priority)
+
 -PostMVP : An on hover description box for the projects
--PostMVP: Any type of Desktop only features such as cursor and on hover functions
+****PostMVP: Any type of Desktop only features such as cursor and on hover functions
+
 -PostMVP : Advanced Coloring or Advanced CSS styling
 -PostMVP : Fixed Nav bar
 
@@ -91,12 +96,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Html and Css layout : Grid | High | 2.5 |	2.5|	|
+| Html and Css layout : Grid | High | 2.5 |	4|	|
 | Hamburger Menu | High| 3 | 2.5	|	2.5|
-| Working with API | H | 3hrs| 2 | |
-| Adding Form | High | 5| 2 |  |
+| Working with API | H | 3hrs| 4 | |
+| Adding Form | High | 5| 2 | 2 |
 |Coloring| Low | 1 | 1	|	|
-|Carousel | Low | 4 	|	|
+|Carousel | Low | 4 	|	2|
 |Additional Styling| Low| 2|	|	|
 | Total | H | 17hrs|  |  |
 
@@ -112,6 +117,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
  #### Hamburger Menu
 -https://codepen.io/fgregorydfw/pen/XBKVwg
 -I would like to implement a similiar design for my hamburger menu. This one is responsive to screen size
+-This section required alot of the same styling due to the border radius curved effect coming out then sizing to the box. I really liked this style. Changes original colors and fonts.
+-Used a similair span element in h1 tag thought it looked very clean and precise compared to original header layout.
 
 ## Code Snippet
 
