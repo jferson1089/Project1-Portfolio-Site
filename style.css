@@ -138,7 +138,7 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
   .open .hamburger::after {
     transform: translateY(-3px) rotate(-90deg);
   }
-  
+  /*End of hamburger menu styling */
   
   
   /*Grid Layout*/
@@ -287,9 +287,13 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
   }
 .section1{
     grid-area:section1;  
+    box-shadow: 1px 1px 1px 1px #cccccc;
+   
+    align-items:center;
   }
 .section2{
     grid-area:section2;
+    display:none;
   }
 article{
     grid-area:article;

@@ -26,11 +26,11 @@ fetch(source)
 function app (projects){
     console.log('app-projects', projects)
 
-    let $div =$('div')
-    let $ul =$('ul')
+    
 
     projects.forEach( container => {
         let $li = $(`<h2 class='title'>${container.title}</h2><a href='${container.url}'><img src='${container.image}' style="width:300px;height:200px;"></img></a><p>${container.description}</p>`)
+      
         $('section').append($li);
       })
       
@@ -43,7 +43,7 @@ function app (projects){
     
 
 
-//This section is for the click function on hamburger icon
+//This section is for the click function on hamburger icon. resources linked on style sheet.
 $('.menu-toggle').click(function() {
   
     $('.site-nav').toggleClass('site-nav--open', 400)
