@@ -11,7 +11,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 4| MVP & Bug Fixes | Complete (1 Bug)
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
@@ -63,16 +63,16 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ****MVP: Working Display of Projects
 
--MVP: Any javascript or jQuery functions work from mobile to tablet to desktop.
+****-MVP: Any javascript or jQuery functions work from mobile to tablet to desktop.
 
--MVP: Any images loading properly and styles
--MVP: Using the Nav bar to Scroll down the page, needs to work or it is pointless to be there.
+****-MVP: Any images loading properly and styles
+****-MVP : Hamburger Menu for Mobile (Even though it is needed for project, if the Nav bar works hamburger menu might not be top priority)
+ 
 
-****PostMVP : Hamburger Menu for Mobile (Even though it is needed for project, if the Nav bar works hamburger menu might not be top priority)
 
--PostMVP : An on hover description box for the projects
+****-PostMVP : An on hover description box for the projects
 ****PostMVP: Any type of Desktop only features such as cursor and on hover functions
-
+-PostMVP: Using the Nav bar to Scroll down the page, needs to work or it is pointless to be there.
 -PostMVP : Advanced Coloring or Advanced CSS styling
 -PostMVP : Fixed Nav bar
 
@@ -96,14 +96,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Html and Css layout : Grid | High | 2.5 |	4|	|
+| Html and Css layout : Grid | High | 2.5 |	5|5	|
 | Hamburger Menu | High| 3 | 2.5	|	2.5|
-| Working with API | H | 3hrs| 4 | |
+| Working with API | H | 3hrs| 6 | 6|
 | Adding Form | High | 5| 2 | 2 |
 |Coloring| Low | 1 | 1	|	|
-|Carousel | Low | 4 	|	2|
+|Carousel | Low | 4 	|	4| 4|
 |Additional Styling| Low| 2|	|	|
-| Total | H | 17hrs|  |  |
+| Total | H | 17hrs| 22 |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
@@ -119,6 +119,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 -I would like to implement a similiar design for my hamburger menu. This one is responsive to screen size
 -This section required alot of the same styling due to the border radius curved effect coming out then sizing to the box. I really liked this style. Changes original colors and fonts.
 -Used a similair span element in h1 tag thought it looked very clean and precise compared to original header layout.
+
+
+#### Slideshow
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+-Went with a timed slideshow for mobile. Used this resource for the javascript and timing. Injected the images and container in with jquery
 
 ## Code Snippet
 
