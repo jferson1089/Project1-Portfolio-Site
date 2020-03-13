@@ -21,6 +21,7 @@ fetch(source)
     }
   })
   app(projects)
+  showSlides()
 })
 
 function app (projects){
@@ -31,16 +32,46 @@ function app (projects){
     projects.forEach( container => {
         let $li = $(`<div class="imageContainer"><h2 class='title'>${container.title}</h2><a href='${container.url}'><img src='${container.image}' class='containerImage' style="width:150px;height:100px;"></img></a><p>${container.description}</p></div>`)
       
-        $('section').append($li);
+        $('.section1').append($li);
+
+
+
+
+        
+        let $slide=$(`<div class=slideBox fade>
+<a href='${container.url}'>
+<img src='${container.image}' style ='width: 500px; height:200px;'></a>
+<div>${container.title} - ${container.description} </div>`)
+
+$('div.slideshow-container').append($slide)
+
       })
       
 
 
 
-}
 
 
+
+    }  
+
+    var slideIndex = 0;
+    showSlides();
     
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("slideBox");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+
+
+
 
 
 //This section is for the click function on hamburger icon. resources linked on style sheet.
