@@ -125,6 +125,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 -Went with a timed slideshow for mobile. Used this resource for the javascript and timing. Injected the images and container in with jquery
 
+#### https://www.youtube.com/watch?v=TOjD8iX7hV0&feature=youtu.be
+
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
