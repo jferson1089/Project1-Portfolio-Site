@@ -22,6 +22,18 @@ fetch(source)
   })
   app(projects)
   showSlides()
+
+  //This section is for the click function on hamburger icon. resources linked on style sheet.
+$('.menu-toggle').click(function() {
+  
+    $('.site-nav').toggleClass('site-nav--open', 400)
+    $(this).toggleClass('open')
+})
+
+
+
+
+
 })
 
 function app (projects){
@@ -40,7 +52,7 @@ function app (projects){
         
         let $slide=$(`<div class=slideBox fade>
 <a href='${container.url}'>
-<img src='${container.image}' style ='width: 500px; height:200px;'></a>
+<img src='${container.image}' style ='width: 500px; height:500px;'></a>
 <div>${container.title} - ${container.description} </div>`)
 
 $('div.slideshow-container').append($slide)

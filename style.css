@@ -10,9 +10,22 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
 -I would like to implement a similiar design for my hamburger menu. This one is responsive to screen size
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
+.split{
+  height:50px;
+  width:100%;
+  background: white;
+  border-top: 2px solid #F59817;
+  border-bottom: 2px solid #8B1D06;
+  grid-area:split;
+}
 
 
-  h1{
+
+h1{
     width:50%;
     text-align:center;
     letter-spacing: 4px;
@@ -162,8 +175,9 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
     border-top: 2px solid #F59817;
     border-bottom: 2px solid #8B1D06;
     padding: 1em 0;
-    position: relative;
+    position: fixed;
     font-family: 'Abel', sans-serif;
+    width:100%;
   }
   
 
@@ -187,10 +201,11 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
     display:grid;
     grid-gap: 10px;
     grid-template-columns: repeat( 1fr)auto;
-    grid-template-rows:auto repeat(6, 1fr)  auto ;
+    grid-template-rows:auto repeat(6fr)  auto ;
   grid-template-areas:
     "header"
     "main"
+    "split"
     "section2"
     
     "article"
@@ -288,6 +303,7 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
     background-color:rgba(255,255,255, 0.8);
     margin:35px;
     padding:15px;
+    height:300px;
   }
   
   a{
@@ -302,7 +318,10 @@ Got toggle functions and jquery code from this code pen to add hamburger menu in
     background-image:url('https://res.cloudinary.com/jferson1089/image/upload/v1583656267/Screen_Shot_2020-03-08_at_4.30.06_AM_srr5j3.png');
     background-size:cover;
     background-repeat:no-repeat;
+    height:500px;
+    margin-top:75px;
   }
+
 
   section {
       display:none;
@@ -330,9 +349,9 @@ footer{
   
   
   
+  /* Desktop Media Query*/
   
-  
-  @media (min-width: 700px){
+  @media (min-width: 1024px){
   body {
     height:1000px;
   /*   border: 1px solid; */
@@ -382,7 +401,7 @@ footer{
     main{
     background-position:center;
     background-size:cover;
-    height: 300px;
+    height: 500px;
       display:flex;
       justify-content:flex-end;
     }
@@ -508,3 +527,10 @@ footer{
 
   
   }
+/* tablet media query*/
+  @media (min-width:700px){
+
+  body{
+    background-color:coral;
+  }
+}
