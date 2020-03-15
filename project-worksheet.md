@@ -11,8 +11,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Complete (1 Bug)
-|Day 5| Final Touches | Incomplete
+|Day 4| MVP & Bug Fixes | Complete 
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -23,6 +23,7 @@ For my Portfolio, I would like to build a Mobile webpage that sizes up to tablet
 ## Google Sheet
 
 Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+https://docs.google.com/spreadsheets/d/11VTYvZzzxHV_I867DbtkGCGE9T6Ld8V5kEhqJI_fVQI/edit#gid=0
 
 ## Wireframes
 Figma Layout: 
@@ -72,9 +73,9 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ****-PostMVP : An on hover description box for the projects
 ****PostMVP: Any type of Desktop only features such as cursor and on hover functions
--PostMVP: Using the Nav bar to Scroll down the page, needs to work or it is pointless to be there.
--PostMVP : Advanced Coloring or Advanced CSS styling
--PostMVP : Fixed Nav bar
+****PostMVP: Using the Nav bar to Scroll down the page, needs to work or it is pointless to be there.
+****PostMVP : Advanced Coloring or Advanced CSS styling
+****PostMVP : Fixed Nav bar
 
 
 #### MVP (examples)
@@ -100,10 +101,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Hamburger Menu | High| 3 | 2.5	|	2.5|
 | Working with API | H | 3hrs| 6 | 6|
 | Adding Form | High | 5| 2 | 2 |
-|Coloring| Low | 1 | 1	|	|
+|Coloring| Low | 1 | 1	|	1|
 |Carousel | Low | 4 	|	4| 4|
-|Additional Styling| Low| 2|	|	|
-| Total | H | 17hrs| 22 |  |
+|Additional Styling| Low| 2|2	|	2|
+| Total | H | 17hrs| 22 | 22.5 |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
@@ -127,6 +128,10 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 #### https://www.youtube.com/watch?v=TOjD8iX7hV0&feature=youtu.be
 
+
+#### https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
+Scrolling
+
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
@@ -140,12 +145,15 @@ Use this section to include a brief code snippet of functionality that you are p
         <button>Contact Me</button>
         </form></article>
 ```
-Above is my form box with linking into the google forms and google spreadsheet to record responses. I used this method for time saving, currently it still brings up a google "submitted" box which I would like to remove if I have time to look into it. So using youtube video linked above, after creating the form you can inspect the elements of each particular box and set them appropriately. Then you make your form action the url of the google form and it links it up. The Form, inputs, and button where created and styled by me.
+Above is my form box with linking into the google forms and google spreadsheet to record responses. I used this method for time saving, currently it still brings up a google "submitted" box which I would like to remove if I have time to look into it. So using youtube video linked above, after creating your google form you can inspect the elements of each particular box and set them appropriately to your page. Then you make your form action the url of the google form and it links it up. The Form, inputs, and button where created and styled by me.
+
 
 
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+My hamburger menu broke my code: The function for the hamburger menu was in the wrong order. After some playing around with it I realized this and moved it up in the app.js file and everything came back together.
+
+Addition of nav bar links that scroll the page: This addition caused me to need to restyle the page, I switched the layouts to be larger, so the scrolling function could actually scroll to something instead of moving an small amount. This was an oversight in my design and a good learning experience when making a single page application, make everything larger.
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
