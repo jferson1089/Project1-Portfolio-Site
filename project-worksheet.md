@@ -13,7 +13,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete 
 |Day 5| Final Touches | Complete
-|Day 6| Present | Ready
+|Day 6| Present | Complete
 
 
 ## Project Description
@@ -104,7 +104,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |Coloring| Low | 1 | 1	|	1|
 |Carousel | Low | 4 	|	4| 4|
 |Additional Styling| Low| 2|2	|	2|
-| Total | H | 17hrs| 22 | 22.5 |
+| Total | H | 17hrs| 22 | 22.5 | 24 hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
